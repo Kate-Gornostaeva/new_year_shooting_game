@@ -92,7 +92,7 @@ while running:
 
     # Отображение счетчиков на экране
     font = pygame.font.Font(None, 36)
-    text_boxes = font.render(f"Коробки: {boxes_caught}/15", True, (0, 0, 0))
+    text_boxes = font.render(f"Подарки: {boxes_caught}/15", True, (0, 0, 0))
     text_crackers = font.render(f"Хлопушки: {crackers_caught}/3", True, (0, 0, 0))
 
     screen.blit(text_boxes, (10, 10))
